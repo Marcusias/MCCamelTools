@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C1F777B1D0127DB00934282 /* MCContentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C1F777A1D0127DB00934282 /* MCContentVC.xib */; };
+		2C2CC0681D0013D400265EF1 /* MCHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2CC0671D0013D400265EF1 /* MCHTTPRequest.m */; };
+		2C2CC06E1D001CEE00265EF1 /* Fence.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2CC06D1D001CEE00265EF1 /* Fence.m */; };
+		2C55A5DE1D20FFF800956415 /* MCData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C55A5DD1D20FFF800956415 /* MCData.m */; };
+		2C617C1A1D893B3700D76C1F /* MCLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C617C181D893B3700D76C1F /* MCLoginView.m */; };
+		2C617C1B1D893B3700D76C1F /* MCLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C617C191D893B3700D76C1F /* MCLoginView.xib */; };
+		2C691B711CFD8DA900282070 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C691B701CFD8DA900282070 /* AppDelegate.m */; };
+		2C691B741CFD8DA900282070 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C691B731CFD8DA900282070 /* main.m */; };
+		2C691B771CFD8DA900282070 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C691B761CFD8DA900282070 /* ViewController.m */; };
+		2C691B791CFD8DA900282070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C691B781CFD8DA900282070 /* Assets.xcassets */; };
+		2C691B7C1CFD8DA900282070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C691B7A1CFD8DA900282070 /* Main.storyboard */; };
+		2C691B871CFD8DA900282070 /* MCCamleToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C691B861CFD8DA900282070 /* MCCamleToolsTests.m */; };
+		2C691B921CFD8DA900282070 /* MCCamleToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C691B911CFD8DA900282070 /* MCCamleToolsUITests.m */; };
+		2C691BBC1CFE0CCE00282070 /* MCContentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C691BBA1CFE0CCE00282070 /* MCContentVC.m */; };
+		2C8172F31D5D87F1001A4CCA /* mainPic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C8172F21D5D87F1001A4CCA /* mainPic2.jpg */; };
+		2C8D81B71D5B3CFF001198C8 /* mainPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C8D81B61D5B3CFF001198C8 /* mainPic.jpg */; };
+		90F5063D247698E837DC9BAC /* libPods-CamleTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 654DE75D63089B17CA656D46 /* libPods-CamleTools.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C691B831CFD8DA900282070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C691B641CFD8DA900282070 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C691B6B1CFD8DA900282070;
+			remoteInfo = MCCamleTools;
+		};
+		2C691B8E1CFD8DA900282070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C691B641CFD8DA900282070 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C691B6B1CFD8DA900282070;
+			remoteInfo = MCCamleTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C1F777A1D0127DB00934282 /* MCContentVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCContentVC.xib; sourceTree = "<group>"; };
+		2C2CC0661D0013D400265EF1 /* MCHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCHTTPRequest.h; sourceTree = "<group>"; };
+		2C2CC0671D0013D400265EF1 /* MCHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCHTTPRequest.m; sourceTree = "<group>"; };
+		2C2CC06C1D001CEE00265EF1 /* Fence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fence.h; sourceTree = "<group>"; };
+		2C2CC06D1D001CEE00265EF1 /* Fence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fence.m; sourceTree = "<group>"; };
+		2C55A5DC1D20FFF800956415 /* MCData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCData.h; sourceTree = "<group>"; };
+		2C55A5DD1D20FFF800956415 /* MCData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCData.m; sourceTree = "<group>"; };
+		2C617C171D893B3700D76C1F /* MCLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLoginView.h; sourceTree = "<group>"; };
+		2C617C181D893B3700D76C1F /* MCLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCLoginView.m; sourceTree = "<group>"; };
+		2C617C191D893B3700D76C1F /* MCLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCLoginView.xib; sourceTree = "<group>"; };
+		2C691B6C1CFD8DA900282070 /* 运单分析.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "运单分析.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C691B6F1CFD8DA900282070 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C691B701CFD8DA900282070 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C691B731CFD8DA900282070 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C691B751CFD8DA900282070 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2C691B761CFD8DA900282070 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C691B781CFD8DA900282070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C691B7B1CFD8DA900282070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C691B7D1CFD8DA900282070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C691B821CFD8DA900282070 /* 运单分析.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "运单分析.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C691B861CFD8DA900282070 /* MCCamleToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCCamleToolsTests.m; sourceTree = "<group>"; };
+		2C691B881CFD8DA900282070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C691B8D1CFD8DA900282070 /* 运单分析.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "运单分析.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C691B911CFD8DA900282070 /* MCCamleToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCCamleToolsUITests.m; sourceTree = "<group>"; };
+		2C691B931CFD8DA900282070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C691BB91CFE0CCE00282070 /* MCContentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCContentVC.h; sourceTree = "<group>"; };
+		2C691BBA1CFE0CCE00282070 /* MCContentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCContentVC.m; sourceTree = "<group>"; };
+		2C8172F21D5D87F1001A4CCA /* mainPic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mainPic2.jpg; sourceTree = "<group>"; };
+		2C8D81B61D5B3CFF001198C8 /* mainPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mainPic.jpg; sourceTree = "<group>"; };
+		654DE75D63089B17CA656D46 /* libPods-CamleTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CamleTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E5A5DC5E645EF7E7686B68 /* Pods-CamleTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CamleTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CamleTools/Pods-CamleTools.debug.xcconfig"; sourceTree = "<group>"; };
+		CD6CFFB351839CF7C9DAC215 /* Pods-CamleTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CamleTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-CamleTools/Pods-CamleTools.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C691B691CFD8DA900282070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F5063D247698E837DC9BAC /* libPods-CamleTools.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C691B7F1CFD8DA900282070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C691B8A1CFD8DA900282070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C2CC0691D001C8300265EF1 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2C2CC0661D0013D400265EF1 /* MCHTTPRequest.h */,
+				2C2CC0671D0013D400265EF1 /* MCHTTPRequest.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		2C2CC06A1D001C9400265EF1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2C691B751CFD8DA900282070 /* ViewController.h */,
+				2C691B761CFD8DA900282070 /* ViewController.m */,
+				2C691BB91CFE0CCE00282070 /* MCContentVC.h */,
+				2C691BBA1CFE0CCE00282070 /* MCContentVC.m */,
+				2C1F777A1D0127DB00934282 /* MCContentVC.xib */,
+				2C617C171D893B3700D76C1F /* MCLoginView.h */,
+				2C617C181D893B3700D76C1F /* MCLoginView.m */,
+				2C617C191D893B3700D76C1F /* MCLoginView.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		2C2CC06B1D001CCA00265EF1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2C2CC06C1D001CEE00265EF1 /* Fence.h */,
+				2C2CC06D1D001CEE00265EF1 /* Fence.m */,
+				2C55A5DC1D20FFF800956415 /* MCData.h */,
+				2C55A5DD1D20FFF800956415 /* MCData.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		2C691B631CFD8DA900282070 = {
+			isa = PBXGroup;
+			children = (
+				2C691B6E1CFD8DA900282070 /* MCCamleTools */,
+				2C691B851CFD8DA900282070 /* MCCamleToolsTests */,
+				2C691B901CFD8DA900282070 /* MCCamleToolsUITests */,
+				2C691B6D1CFD8DA900282070 /* Products */,
+				667BB3D430C68B8463F3B83F /* Pods */,
+				2DE860C173D5ABCC91F5868A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C691B6D1CFD8DA900282070 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C691B6C1CFD8DA900282070 /* 运单分析.app */,
+				2C691B821CFD8DA900282070 /* 运单分析.xctest */,
+				2C691B8D1CFD8DA900282070 /* 运单分析.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C691B6E1CFD8DA900282070 /* MCCamleTools */ = {
+			isa = PBXGroup;
+			children = (
+				2C2CC06B1D001CCA00265EF1 /* model */,
+				2C2CC0691D001C8300265EF1 /* Util */,
+				2C691B6F1CFD8DA900282070 /* AppDelegate.h */,
+				2C691B701CFD8DA900282070 /* AppDelegate.m */,
+				2C2CC06A1D001C9400265EF1 /* ViewController */,
+				2C691B781CFD8DA900282070 /* Assets.xcassets */,
+				2C691B7A1CFD8DA900282070 /* Main.storyboard */,
+				2C8D81B61D5B3CFF001198C8 /* mainPic.jpg */,
+				2C8172F21D5D87F1001A4CCA /* mainPic2.jpg */,
+				2C691B7D1CFD8DA900282070 /* Info.plist */,
+				2C691B721CFD8DA900282070 /* Supporting Files */,
+			);
+			path = MCCamleTools;
+			sourceTree = "<group>";
+		};
+		2C691B721CFD8DA900282070 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C691B731CFD8DA900282070 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C691B851CFD8DA900282070 /* MCCamleToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C691B861CFD8DA900282070 /* MCCamleToolsTests.m */,
+				2C691B881CFD8DA900282070 /* Info.plist */,
+			);
+			path = MCCamleToolsTests;
+			sourceTree = "<group>";
+		};
+		2C691B901CFD8DA900282070 /* MCCamleToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C691B911CFD8DA900282070 /* MCCamleToolsUITests.m */,
+				2C691B931CFD8DA900282070 /* Info.plist */,
+			);
+			path = MCCamleToolsUITests;
+			sourceTree = "<group>";
+		};
+		2DE860C173D5ABCC91F5868A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				654DE75D63089B17CA656D46 /* libPods-CamleTools.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		667BB3D430C68B8463F3B83F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2E5A5DC5E645EF7E7686B68 /* Pods-CamleTools.debug.xcconfig */,
+				CD6CFFB351839CF7C9DAC215 /* Pods-CamleTools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C691B6B1CFD8DA900282070 /* 运单分析 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C691B961CFD8DA900282070 /* Build configuration list for PBXNativeTarget "运单分析" */;
+			buildPhases = (
+				EAFD1B99D4D27616D1D188CE /* 📦 Check Pods Manifest.lock */,
+				2C691B681CFD8DA900282070 /* Sources */,
+				2C691B691CFD8DA900282070 /* Frameworks */,
+				2C691B6A1CFD8DA900282070 /* Resources */,
+				36DAC25C535593088B569E18 /* 📦 Embed Pods Frameworks */,
+				B9CD256F7FD26178F2AEA087 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "运单分析";
+			productName = MCCamleTools;
+			productReference = 2C691B6C1CFD8DA900282070 /* 运单分析.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C691B811CFD8DA900282070 /* 运单分析Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C691B991CFD8DA900282070 /* Build configuration list for PBXNativeTarget "运单分析Tests" */;
+			buildPhases = (
+				2C691B7E1CFD8DA900282070 /* Sources */,
+				2C691B7F1CFD8DA900282070 /* Frameworks */,
+				2C691B801CFD8DA900282070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C691B841CFD8DA900282070 /* PBXTargetDependency */,
+			);
+			name = "运单分析Tests";
+			productName = MCCamleToolsTests;
+			productReference = 2C691B821CFD8DA900282070 /* 运单分析.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C691B8C1CFD8DA900282070 /* 运单分析UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C691B9C1CFD8DA900282070 /* Build configuration list for PBXNativeTarget "运单分析UITests" */;
+			buildPhases = (
+				2C691B891CFD8DA900282070 /* Sources */,
+				2C691B8A1CFD8DA900282070 /* Frameworks */,
+				2C691B8B1CFD8DA900282070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C691B8F1CFD8DA900282070 /* PBXTargetDependency */,
+			);
+			name = "运单分析UITests";
+			productName = MCCamleToolsUITests;
+			productReference = 2C691B8D1CFD8DA900282070 /* 运单分析.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C691B641CFD8DA900282070 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Marcus;
+				TargetAttributes = {
+					2C691B6B1CFD8DA900282070 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2C691B811CFD8DA900282070 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2C691B6B1CFD8DA900282070;
+					};
+					2C691B8C1CFD8DA900282070 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2C691B6B1CFD8DA900282070;
+					};
+				};
+			};
+			buildConfigurationList = 2C691B671CFD8DA900282070 /* Build configuration list for PBXProject "运单分析" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C691B631CFD8DA900282070;
+			productRefGroup = 2C691B6D1CFD8DA900282070 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C691B6B1CFD8DA900282070 /* 运单分析 */,
+				2C691B811CFD8DA900282070 /* 运单分析Tests */,
+				2C691B8C1CFD8DA900282070 /* 运单分析UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C691B6A1CFD8DA900282070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C691B791CFD8DA900282070 /* Assets.xcassets in Resources */,
+				2C691B7C1CFD8DA900282070 /* Main.storyboard in Resources */,
+				2C617C1B1D893B3700D76C1F /* MCLoginView.xib in Resources */,
+				2C8172F31D5D87F1001A4CCA /* mainPic2.jpg in Resources */,
+				2C1F777B1D0127DB00934282 /* MCContentVC.xib in Resources */,
+				2C8D81B71D5B3CFF001198C8 /* mainPic.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C691B801CFD8DA900282070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C691B8B1CFD8DA900282070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36DAC25C535593088B569E18 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CamleTools/Pods-CamleTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9CD256F7FD26178F2AEA087 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CamleTools/Pods-CamleTools-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAFD1B99D4D27616D1D188CE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C691B681CFD8DA900282070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C691BBC1CFE0CCE00282070 /* MCContentVC.m in Sources */,
+				2C2CC0681D0013D400265EF1 /* MCHTTPRequest.m in Sources */,
+				2C691B771CFD8DA900282070 /* ViewController.m in Sources */,
+				2C2CC06E1D001CEE00265EF1 /* Fence.m in Sources */,
+				2C617C1A1D893B3700D76C1F /* MCLoginView.m in Sources */,
+				2C691B741CFD8DA900282070 /* main.m in Sources */,
+				2C691B711CFD8DA900282070 /* AppDelegate.m in Sources */,
+				2C55A5DE1D20FFF800956415 /* MCData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C691B7E1CFD8DA900282070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C691B871CFD8DA900282070 /* MCCamleToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C691B891CFD8DA900282070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C691B921CFD8DA900282070 /* MCCamleToolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C691B841CFD8DA900282070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C691B6B1CFD8DA900282070 /* 运单分析 */;
+			targetProxy = 2C691B831CFD8DA900282070 /* PBXContainerItemProxy */;
+		};
+		2C691B8F1CFD8DA900282070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C691B6B1CFD8DA900282070 /* 运单分析 */;
+			targetProxy = 2C691B8E1CFD8DA900282070 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C691B7A1CFD8DA900282070 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C691B7B1CFD8DA900282070 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C691B941CFD8DA900282070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2C691B951CFD8DA900282070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2C691B971CFD8DA900282070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2E5A5DC5E645EF7E7686B68 /* Pods-CamleTools.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MCCamleTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yto.MCCamleTools;
+				PRODUCT_NAME = "运单分析";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		2C691B981CFD8DA900282070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD6CFFB351839CF7C9DAC215 /* Pods-CamleTools.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MCCamleTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yto.MCCamleTools;
+				PRODUCT_NAME = "运单分析";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+		2C691B9A1CFD8DA900282070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MCCamleToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yto.MCCamleToolsTests;
+				PRODUCT_NAME = "运单分析";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/运单分析.app/Contents/MacOS/运单分析";
+			};
+			name = Debug;
+		};
+		2C691B9B1CFD8DA900282070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MCCamleToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yto.MCCamleToolsTests;
+				PRODUCT_NAME = "运单分析";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/运单分析.app/Contents/MacOS/运单分析";
+			};
+			name = Release;
+		};
+		2C691B9D1CFD8DA900282070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MCCamleToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yto.MCCamleToolsUITests;
+				PRODUCT_NAME = "运单分析";
+				TEST_TARGET_NAME = MCCamleTools;
+			};
+			name = Debug;
+		};
+		2C691B9E1CFD8DA900282070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MCCamleToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yto.MCCamleToolsUITests;
+				PRODUCT_NAME = "运单分析";
+				TEST_TARGET_NAME = MCCamleTools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C691B671CFD8DA900282070 /* Build configuration list for PBXProject "运单分析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C691B941CFD8DA900282070 /* Debug */,
+				2C691B951CFD8DA900282070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C691B961CFD8DA900282070 /* Build configuration list for PBXNativeTarget "运单分析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C691B971CFD8DA900282070 /* Debug */,
+				2C691B981CFD8DA900282070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C691B991CFD8DA900282070 /* Build configuration list for PBXNativeTarget "运单分析Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C691B9A1CFD8DA900282070 /* Debug */,
+				2C691B9B1CFD8DA900282070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C691B9C1CFD8DA900282070 /* Build configuration list for PBXNativeTarget "运单分析UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C691B9D1CFD8DA900282070 /* Debug */,
+				2C691B9E1CFD8DA900282070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C691B641CFD8DA900282070 /* Project object */;
+}
